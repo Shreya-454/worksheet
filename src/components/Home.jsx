@@ -10,6 +10,7 @@ import cloopp from '../assets/images/cloopp.png'
 import labs from '../assets/images/labs.png'
 import next from '../assets/images/nextjs.png'
 import swiper from '../assets/images/swiperimg.png'
+import worksheet from '../assets/images/worksheetimg.png'
 
 const Home = () => {
   const [tab, settab] = useState("tab1");
@@ -244,18 +245,18 @@ const Home = () => {
   </div>
   </div>
   <div className='flex gap-4 items-center mb-10'>
-  <p className='text-3xl'>4.</p>
+  <p className='text-3xl'>5.</p>
   <div className='flex flex-row flex-wrap -mx-3'>
   <div className="w-2/5  px-3">
-    <img src={swiper} alt="img1" className='rounded-xl w-full h-full  max-h-[300px] max-w-[350px]' />
+    <img src={worksheet} alt="img1" className='rounded-xl w-full h-full  max-h-[300px] max-w-[350px]' />
   </div>
   <div className='w-3/5 px-3'>
   <h2 className='text-5xl font-bold mb-4'>
  Worksheet
   </h2>
   <p className='text-[green] text-3xl font-semibold mb-3'>Date of submission:-  <span className='text-black text-2xl font-normal underline '>27-3-2024</span> </p>
-  <p className=' text-xl font-bold mb-3'>GitHub link :- <span><a href="https://github.com/Shreya-454/swiper.git" target='blank' className='text-lg text-[blue] font-normal underline'>https://github.com/Shreya-454/swiper.git</a></span></p>
-  <p className=' text-xl font-bold '>Live link :- <span><a href="https://swiper-sigma.vercel.app/" target='blank' className='text-lg text-[blue] font-normal underline'>https://swiper-sigma.vercel.app/</a></span></p>
+  <p className=' text-xl font-bold mb-3'>GitHub link :- <span><a href="https://github.com/Shreya-454/worksheet.git" target='blank' className='text-lg text-[blue] font-normal underline'>https://github.com/Shreya-454/worksheet.git</a></span></p>
+  <p className=' text-xl font-bold '>Live link :- <span><a href="https://worksheet-ochre.vercel.app/" target='blank' className='text-lg text-[blue] font-normal underline'>https://worksheet-ochre.vercel.app/</a></span></p>
   </div>
   </div>
   </div>
