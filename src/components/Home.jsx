@@ -21,7 +21,7 @@ const Home = () => {
     <div className=''>
       <div className=" max-w-[1320px] mx-auto w-full">
         <h1 className=' font-serif text-6xl text-black text-center'>Worksheet 2024</h1>
-        <div className=' flex justify-end'><span className=' text-4xl px-5 py-4 border-[4px] border-solid border-black rounded-full '>Shreya-454</span></div>
+        <div className=' flex justify-end'><span className=' text-4xl px-5 py-4 border-[4px] border-solid border-black rounded-full mb-10 '>Shreya-454</span></div>
         <div className='flex flex-row flex-wrap -mx-3 '>
             <div className='w-1/4 px-3'>
               <div>
