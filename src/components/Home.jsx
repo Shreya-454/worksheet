@@ -14,6 +14,7 @@ import worksheet from "../assets/images/worksheetimg.png";
 import validation from "../assets/images/validation.png";
 import viteapp from "../assets/images/viteapp.png";
 import noble from "../assets/images/noble.png";
+import email1 from '../assets/images/EMAIL-JS.png'
 
 const Home = () => {
   const [tab, settab] = useState("tab1");
@@ -809,6 +810,52 @@ https://github.com/Shreya-454/noble-mind.git"
                             className="text-lg text-[blue] font-normal underline"
                           >
                             https://noble-mind-two.vercel.app/
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex gap-4 items-center mb-10">
+                  <p className="text-3xl">2.</p>
+                  <div className="flex flex-row flex-wrap -mx-3">
+                    <div className="w-2/5  px-3">
+                      <img
+                        src={email1}
+                        alt="img1"
+                        className="rounded-xl w-full h-full  max-h-[300px] max-w-[350px]"
+                      />
+                    </div>
+                    <div className="w-3/5 px-3">
+                      <h2 className="text-5xl font-bold mb-4">Emaljs (useRef)</h2>
+                      <p className="text-[green] text-3xl font-semibold mb-3">
+                        Date of submission:-{" "}
+                        <span className="text-black text-2xl font-normal underline ">
+                          12-4-2024
+                        </span>{" "}
+                      </p>
+                      <p className=" text-xl font-bold mb-3">
+                        GitHub link :-{" "}
+                        <span>
+                          <a
+                            href="
+                            https://github.com/Shreya-454/emailjs1.git"
+                            target="blank"
+                            className="text-lg text-[blue] font-normal underline"
+                          >
+           https://github.com/Shreya-454/emailjs1.git
+                          </a>
+                        </span>
+                      </p>
+                      <p className=" text-xl font-bold ">
+                        Live link :-{" "}
+                        <span>
+                          <a
+                            href="https://emailjs1.vercel.app/"
+                            target="blank"
+                            className="text-lg text-[blue] font-normal underline"
+                          >
+                         https://emailjs1.vercel.app/
                           </a>
                         </span>
                       </p>
