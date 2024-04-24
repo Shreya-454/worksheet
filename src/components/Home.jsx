@@ -878,7 +878,7 @@ https://github.com/Shreya-454/noble-mind.git"
                       <p className="text-[green] text-3xl font-semibold mb-3">
                         Date of submission:-{" "}
                         <span className="text-black text-2xl font-normal underline ">
-                          4-4-2024
+                          24-4-2024
                         </span>{" "}
                       </p>
                       <p className=" text-xl font-bold mb-3">
