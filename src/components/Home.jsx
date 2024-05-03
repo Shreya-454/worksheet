@@ -14,8 +14,9 @@ import worksheet from "../assets/images/worksheetimg.png";
 import validation from "../assets/images/validation.png";
 import viteapp from "../assets/images/viteapp.png";
 import noble from "../assets/images/noble.png";
-import email1 from '../assets/images/EMAIL-JS.png'
-import hubrich from '../assets/images/hubrich.png'
+import email1 from "../assets/images/EMAIL-JS.png";
+import hubrich from "../assets/images/hubrich.png";
+import kodeden from "../assets/images/kodeden.png"
 
 const Home = () => {
   const [tab, settab] = useState("tab1");
@@ -63,9 +64,17 @@ const Home = () => {
               <div>
                 <button
                   onClick={() => opentab("tab4")}
-                  className=" bg-black text-white px-5 py-3 text-3xl rounded-full w-[200px]"
+                  className=" bg-black text-white px-5 py-3 text-3xl rounded-full w-[200px] mb-10"
                 >
                   APRIL
+                </button>
+              </div>
+              <div>
+                <button
+                  onClick={() => opentab("tab5")}
+                  className=" bg-black text-white px-5 py-3 text-3xl rounded-full w-[200px] mb-10"
+                >
+                  MAY
                 </button>
               </div>
             </div>
@@ -828,7 +837,9 @@ https://github.com/Shreya-454/noble-mind.git"
                       />
                     </div>
                     <div className="w-3/5 px-3">
-                      <h2 className="text-5xl font-bold mb-4">Emaljs (useRef)</h2>
+                      <h2 className="text-5xl font-bold mb-4">
+                        Emaljs (useRef)
+                      </h2>
                       <p className="text-[green] text-3xl font-semibold mb-3">
                         Date of submission:-{" "}
                         <span className="text-black text-2xl font-normal underline ">
@@ -844,7 +855,7 @@ https://github.com/Shreya-454/noble-mind.git"
                             target="blank"
                             className="text-lg text-[blue] font-normal underline"
                           >
-           https://github.com/Shreya-454/emailjs1.git
+                            https://github.com/Shreya-454/emailjs1.git
                           </a>
                         </span>
                       </p>
@@ -856,7 +867,7 @@ https://github.com/Shreya-454/noble-mind.git"
                             target="blank"
                             className="text-lg text-[blue] font-normal underline"
                           >
-                         https://emailjs1.vercel.app/
+                            https://emailjs1.vercel.app/
                           </a>
                         </span>
                       </p>
@@ -903,6 +914,55 @@ https://github.com/Shreya-454/noble-mind.git"
                             className="text-lg text-[blue] font-normal underline"
                           >
                             https://hubrich-lemon.vercel.app/
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+            {tab === "tab5" && (
+              <div className=" h-[550px] overflow-y-scroll">
+                <div className="flex gap-4 items-center mb-10">
+                  <p className="text-3xl">1.</p>
+                  <div className="flex flex-row flex-wrap -mx-3">
+                    <div className="w-2/5  px-3">
+                      <img
+                        src={kodeden}
+                        alt="img1"
+                        className="rounded-xl w-full h-full  max-h-[300px] max-w-[350px]"
+                      />
+                    </div>
+                    <div className="w-3/5 px-3">
+                      <h2 className="text-5xl font-bold mb-4">Kodeden</h2>
+                      <p className="text-[green] text-3xl font-semibold mb-3">
+                        Date of submission:-{" "}
+                        <span className="text-black text-2xl font-normal underline ">
+                          3-5-2024
+                        </span>{" "}
+                      </p>
+                      <p className=" text-xl font-bold mb-3">
+                        GitHub link :-{" "}
+                        <span>
+                          <a
+                            href="https://github.com/Shreya-454/kodeden.git"
+                            target="blank"
+                            className="text-lg text-[blue] font-normal underline"
+                          >
+                            https://github.com/Shreya-454/kodeden.git
+                          </a>
+                        </span>
+                      </p>
+                      <p className=" text-xl font-bold ">
+                        Live link :-{" "}
+                        <span>
+                          <a
+                            href="https://kodeden-two.vercel.app/"
+                            target="blank"
+                            className="text-lg text-[blue] font-normal underline"
+                          >
+                           https://kodeden-two.vercel.app/
                           </a>
                         </span>
                       </p>
